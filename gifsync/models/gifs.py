@@ -4,10 +4,8 @@ from gifsync.extensions import db
 import hashlib
 from io import BytesIO
 import math
-from moviepy.video.io.VideoFileClip import VideoFileClip
 import os
 from pathlib import Path
-from PIL import Image as PilImage
 import subprocess
 from subprocess import CalledProcessError
 
